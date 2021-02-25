@@ -1,0 +1,27 @@
+.curvePri {
+    height: 150px;
+}
+.portfolio {
+    background-color: $pri;
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .portfolioHeader {
+        text-align: center;
+        margin-top: 0;
+        color: $sec;
+        font-size: 40px;
+        padding-top: 100px;
+        margin-bottom: 50px;
+    }
+    .card {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        color: $black;
+    }
+    .curve {
+        height: 150px;
+    }
+}

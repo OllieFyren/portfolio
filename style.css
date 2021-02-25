@@ -1,0 +1,135 @@
+.btn-primary {
+  background-color: #666281 !important;
+  border-color: #666281 !important; }
+
+.navigation {
+  display: block;
+  height: 50px;
+  border: solid 2px #666281;
+  border-radius: 5px;
+  position: fixed !important;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  margin-right: 40px;
+  margin-top: 30px;
+  background-color: #f8f8ff !important;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .navigation a {
+    color: #666281 !important; }
+  .navigation span {
+    font-size: 35px;
+    margin-right: 40px; }
+  .navigation span:last-child {
+    margin-right: 0; }
+
+.headerImage {
+  width: 100%;
+  height: 100vh;
+  background: #c9a379;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  padding: 50px;
+  font-family: 'IBM Plex Sans', sans-serif; }
+  .headerImage .headerText1 {
+    color: #666281;
+    margin-top: 0;
+    padding-top: 50vh;
+    margin-bottom: 10px;
+    font-size: 120px; }
+  .headerImage .headerText2 {
+    color: #666281;
+    font-size: 60px;
+    margin-top: 0; }
+
+.curveContainer {
+  height: 100vh;
+  position: relative; }
+  .curveContainer .curve {
+    width: 100%;
+    height: 150px;
+    display: block;
+    z-index: 8;
+    bottom: 0;
+    position: absolute; }
+
+.content {
+  background-color: #f8f8ff;
+  position: relative; }
+  .content .contentHeader {
+    text-align: center;
+    margin-top: 0;
+    color: #666281;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-bottom: 50px; }
+  .content .about {
+    margin-bottom: 70px; }
+    .content .about .portrait {
+      width: 100%; }
+    .content .about .aboutDesc {
+      font-size: 20px;
+      color: #42403d; }
+  .content .skillsHeader {
+    text-align: center;
+    color: #666281;
+    font-size: 40px;
+    margin-bottom: 30px; }
+  .content .languages span {
+    display: block;
+    margin-top: 15px;
+    height: 25px;
+    color: #666281; }
+  .content .grade .progress {
+    height: 25px;
+    margin-top: 15px;
+    background-color: #ffe9d1; }
+    .content .grade .progress .progress-bar {
+      background-color: #c9a379; }
+
+.curvePri {
+  height: 150px; }
+
+.portfolio {
+  background-color: #c9a379; }
+  .portfolio .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .portfolio .portfolioHeader {
+    text-align: center;
+    margin-top: 0;
+    color: #666281;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-bottom: 50px; }
+  .portfolio .card {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    color: #42403d; }
+  .portfolio .curve {
+    height: 150px; }
+
+.contact {
+  padding-bottom: 100px; }
+  .contact .contactHeader {
+    text-align: center;
+    margin-top: 0;
+    color: #666281;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-bottom: 50px; }
+  .contact .contactP {
+    font-size: 20px; }
+
+html {
+  max-width: 100vw; }
+
+body {
+  margin: 0;
+  font-family: 'Newsreader', serif !important;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+@import "colors";
+@import "navigation";
+@import "front";
+@import "about";
+@import "portfolio";
+@import "contact";
+
+html {
+    max-width: 100vw;
+}
+body {
+    margin: 0;
+    font-family: 'Newsreader', serif !important;
+    width: 100%;
+}

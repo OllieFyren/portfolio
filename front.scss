@@ -1,0 +1,22 @@
+.headerImage {
+    width: 100%;
+    height: 100vh;
+    background: $pri;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    padding: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    .headerText1 {
+        color: $sec;
+        margin-top: 0;
+        padding-top: 50vh;
+        margin-bottom: 10px;
+        font-size: 120px;
+    }
+    .headerText2 {
+        color: $sec;
+        font-size: 60px;
+        margin-top: 0;
+    }
+}

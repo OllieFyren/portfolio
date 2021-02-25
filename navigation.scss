@@ -1,0 +1,25 @@
+.navigation {
+    display: block;
+    height: 50px;
+    border: solid 2px $sec;
+    border-radius: 5px;
+    position: fixed !important;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: $white !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    a {
+        color: $sec !important;
+    }
+    span {
+        font-size: 35px;
+        margin-right: 40px;
+      }
+    span:last-child {
+        margin-right: 0;
+    }
+}

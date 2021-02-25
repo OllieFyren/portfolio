@@ -1,0 +1,58 @@
+.curveContainer {
+    height: 100vh;
+    position: relative;
+    .curve {
+        width: 100%;
+        height: 150px;
+        display: block;
+        z-index: 8;
+        bottom: 0;
+        position: absolute;
+    }
+}
+.content {
+    background-color: $white;
+    position: relative;
+    .contentHeader {
+        text-align: center;
+        margin-top: 0;
+        color: $sec;
+        font-size: 40px;
+        padding-top: 100px;
+        margin-bottom: 50px;
+    }
+    .about {
+        margin-bottom: 70px;
+        .portrait {
+            width: 100%;
+        }
+        .aboutDesc {
+            font-size: 20px;
+            color: $black;
+        }
+    }
+    .skillsHeader {
+        text-align: center;
+        color: $sec;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .languages {
+        span {
+            display: block;
+            margin-top: 15px;
+            height: 25px;
+            color: $sec;
+        }
+    }
+    .grade {
+        .progress {
+            height: 25px;
+            margin-top: 15px;
+            background-color: $pri2;
+            .progress-bar {
+                background-color: $pri;
+            }
+        }
+    }
+}
